@@ -26,27 +26,30 @@
                 realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
             <h2>You <em>know</em> you want to.</h2>
         </div>
-        <div class="white-box">
-            <h3>Let's do this!</h3>
-            <form action="POST">
+        <form action="POST">
+            <div class="white-box">
+                <h3>Let's do this!</h3>
                 <div class="forms-container">
-                    <label for="firstName">FIRST NAME</label>
-                    <input type="text" name="firstName" id="firstName">
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
-                    <label for="password">PASSWORD</label>
-                    <input type="password">
+                    <div class="form-container">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" name="firstName" id="firstName">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                        <label for="password">PASSWORD</label>
+                        <input type="password">
+                    </div>
+                    <div class="form-container">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="lastName" id="firstName">
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="number" name="phoneNumber" id="email">
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password">
+                    </div>
                 </div>
-                <div class="forms-container">    
-                    <label for="lastName">LAST NAME</label>
-                    <input type="text" name="lastName" id="firstName">
-                    <label for="phoneNumber">PHONE NUMBER</label>
-                    <input type="number" name="phoneNumber" id="email">
-                    <label for="confirmPassword">CONFIRM PASSWORD</label>
-                    <input type="password">
-                </div>
-            </form>
-        </div>
+            </div>
+            <input type="submit" value="Create Account">
+        </form>
     </div>
 </body>
 
